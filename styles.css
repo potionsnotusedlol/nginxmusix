@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Wattauchimma";
+    src: url("fonts/Wattauchimma.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0px;
+    font-family: "Wattauchimma", Tahoma;
+    font-size: 25pt;
+}
+
+div.header {
+    display: inline;
+    width: 100%;
+}
+
+div.header button {
+    width: 5%;
+}
+
+button img {
+    width: 100%;
+    vertical-align: middle;
+}
