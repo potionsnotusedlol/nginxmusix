@@ -12,16 +12,31 @@
     font-size: 25pt;
 }
 
-div.header {
+div.Header {
     display: inline;
     width: 100%;
 }
 
-div.header button {
-    width: 5%;
-}
+div.Header button { width: 5%; }
 
 button img {
     width: 100%;
     vertical-align: middle;
 }
+
+div.VolumeControl {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+div.VolumeControl button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#volume_icon_svg:hover { transform: scale(1.1); }
+
+div.VolumeControl input[type="range"] { width: 10%; }
