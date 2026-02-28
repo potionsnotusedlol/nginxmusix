@@ -1,1 +1,29 @@
-.DS_Store
+﻿.DS_Store
+Thumbs.db
+
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment and overrides
+.env
+.env.*
+!.env.example
+server/config.local.json
+
+# Local database/runtime artifacts
+data/music.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Private media and covers
+# Keep folder placeholders in git, keep optional non-private default cover
+data/music/*
+!data/music/.gitkeep
+data/covers/*
+!data/covers/.gitkeep
+!data/covers/default-cover.png

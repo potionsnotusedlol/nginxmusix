@@ -1,0 +1,15 @@
+[Unit]
+Description=NginxMusix Node API
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/var/www/nginxmusix
+ExecStart=/usr/bin/node /var/www/nginxmusix/server/app.js
+Restart=always
+RestartSec=3
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

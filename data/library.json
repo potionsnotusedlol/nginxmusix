@@ -1,0 +1,49 @@
+{
+  "tracks": [
+    {
+      "id": "track-love-hurts",
+      "file": "travis_scott_love_hurts.mp3",
+      "title": "Love Hurts",
+      "artist": "Travis Scott, Playboi Carti",
+      "album": "Die Lit",
+      "year": 2018,
+      "tags": [
+        "genre:hip-hop",
+        "mood:dark",
+        "custom:night-drive"
+      ],
+      "cover": "default-cover.png",
+      "playlistIds": [
+        "pl-sample",
+        "pl-night"
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "pl-sample",
+      "name": "Sample Collection",
+      "slug": "sample-collection",
+      "description": "Starter playlist from local files.",
+      "cover": "default-cover.png",
+      "trackIds": [
+        "track-love-hurts"
+      ]
+    },
+    {
+      "id": "pl-night",
+      "name": "Night Drive",
+      "slug": "night-drive",
+      "description": "Dark-toned tracks for evening sessions.",
+      "cover": "default-cover.png",
+      "trackIds": [
+        "track-love-hurts"
+      ]
+    }
+  ],
+  "tagGroups": {
+    "genre": "Genre",
+    "mood": "Mood",
+    "custom": "Tags"
+  }
+}

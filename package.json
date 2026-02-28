@@ -1,0 +1,16 @@
+{
+  "name": "nginxmusix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private nginx-hosted music player",
+  "scripts": {
+    "rescan": "node server/rescan.js",
+    "start": "node server/app.js",
+    "dev": "node server/rescan.js && node server/app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "mime-types": "^2.1.35"
+  }
+}
